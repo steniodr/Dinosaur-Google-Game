@@ -1,0 +1,125 @@
+body{
+    background: #fafafa;
+}
+
+.hero {
+    width: 100px;
+    height: 100px;
+    background-image: url('../img/boy.gif');
+    background-size: 95%;
+    position: absolute;
+    bottom: 0;
+    display: none;
+}
+
+.dino {
+    width: 100px;
+    height: 100px;
+    background-image: url('../img/dino.gif');
+    background-size: 100%;
+    position: absolute;
+    bottom: 0;
+    display: none;
+}
+
+.cactus {
+    width: 100px;
+    height: 100px;
+    background-image: url('../img/cactus.png');
+    background-size: 98%;
+    position: absolute;
+    bottom: 0;
+}
+
+.enemie {
+    width: 100px;
+    height: 100px;
+    background-image: url('../img/obstacle.gif');
+    background-size: 98%;
+    position: absolute;
+    bottom: 0;
+}
+
+.tittleInfo {
+    font-size: 40px;
+    color: #232323;
+}
+
+.myName{
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 20px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: #a3a3a3;
+    color: #000000;
+}
+
+.info {
+    background-color: rgba(0, 0, 0, .50);
+    padding: 10px 20px;
+}
+.div-button {
+    margin-top: 30px;
+}
+
+.margin {
+    margin: 20px;
+}
+
+.game-over{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+}
+
+#score {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    display: none;
+}
+
+.background-dino{
+    position: absolute;
+    bottom: 0;
+    background-image: url('../img/background.png');
+    background-repeat: repeat-x;
+    animation: slideright 1800s infinite linear;
+    width: 100%;
+    height: 200px;
+    display: none;
+}
+
+.background-hero {
+    position: absolute;
+    bottom: 0;
+    background-image: url('../img/backgroundCity.jpeg');
+    background-repeat: repeat-x;
+    animation: slideright 1800s infinite linear;
+    width: 100%;
+    height: 350px;
+    display: none;
+}
+
+@keyframes slideright {
+    from {
+        background-position: 70000%;
+    }
+    to {
+        background-position: 0;
+    }
+}

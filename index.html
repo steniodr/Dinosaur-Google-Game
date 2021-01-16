@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/dino.png" />
+    <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <script defer src="js/script.js" charset="UTF-8"></script>
+
+    <title>Infinite Running Game</title>
+
+</head>
+<body>
+    <h1 class="display-4 text-center">Infinite Running Game</h1>
+    <h2 class="display-3 text-center myName">Desenvolvido por Stenio Dias Rapchan</h2>
+    <div id="information" class="row">
+        <div id="game-mode" class="col-md-6 col-sm-12">
+            <div class="col-md-12 div-button text-center">
+                <button type="button" onclick="startDino()" class='botao'><img src="img/dino.gif" alt="T-Rex gif" width="30%"></br>(T-REX Google Game)</button>
+            </div>
+            <div class="col-md-12 div-button text-center">
+                <button type="button" onclick="startHero()" class='botao'><img src="img/boy.gif" alt="Scott gif" width="50px"></br>(Scott Pilgrim Game Tribute)</button>
+            </div>
+        </div>
+        <div id="instructions" class="col-md-6 col-sm-12">
+            <h2 class="display-4 text-center tittleInfo">Instruções</h2>
+            <p class="text-justify margin">O joguinho do dinossauro está de volta, e desta vez sem precisar ficar sem internet (kkk).
+                Esse projeto foi desenvolvido na aula "Recriando o famoso jogo do dinossauro sem internet", na plataforma <b><a href="http://https://digitalinnovation.one/" target="_blank" rel="digitalinnovation" style="color: #FFCA0C">Digital Innovation One</a></b>.
+                <br>Ministrado pelo <b>Celso Henrique</b>, Engineering Manager, Digital Innovation One.
+            </p>
+            <br>
+            <p class="text-justify margin">Nessa versão, você poderá jogar no modo tradicional ou numa versão nova
+                em tributo ao Scott Pilgrim. Clique na versão escolhida e aproveite o jogo! </p>
+        </div>
+        
+    </div>
+    <div id="score" class="text-center">SCORE ( 0 )</div>
+    <div id="background-dino" class="background-dino">
+        <div id="dino" class="dino">
+
+        </div>
+    </div>
+    <div id="background-hero" class="background-hero">
+        <div id="hero" class="hero">
+
+        </div>
+    </div>
+</body>
+</html>
