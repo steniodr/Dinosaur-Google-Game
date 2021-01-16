@@ -13,4 +13,10 @@
 
 <img src="https://github.com/steniodr/Dinosaur-Google-Game/blob/main/img/dino.gif" width=200px>   <img src="https://github.com/steniodr/Dinosaur-Google-Game/blob/main/img/boy.gif"> 
 
+<h2>T-Rex GamePlay</h2>
+<img src="https://github.com/steniodr/Dinosaur-Google-Game/blob/main/img/demo-dino-gameplay.png" width=100%>
+
+<h2>Scott Pilgrim GamePlay</h2>
+<img src="https://github.com/steniodr/Dinosaur-Google-Game/blob/main/img/demo-scott-gameplay.png" width=100%>
+
 <p> Desenvolvido pela minha ilustre pessoa, Stenio Dias Rapchan </p>
